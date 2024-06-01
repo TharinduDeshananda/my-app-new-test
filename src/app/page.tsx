@@ -6,3 +6,5 @@ export default function Home() {
     <div className="w-full">Hello Tharindu Deshananda {date.toISOString()}</div>
   );
 }
+
+export const revalidate = 0;
