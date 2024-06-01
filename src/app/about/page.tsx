@@ -17,5 +17,5 @@ function AboutPage() {
     </div>
   );
 }
-
+export const revalidate = 5000;
 export default AboutPage;
